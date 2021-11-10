@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/blue"
+    android:paddingLeft="25dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:id="@+id/tv1"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed1"
+        android:layout_below="@id/tv1"
+        android:hint="Employee ID"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed2"
+        android:layout_below="@id/ed1"
+        android:hint="Employee Name"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed3"
+        android:layout_below="@id/ed2"
+        android:hint="Employee Department"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed4"
+        android:layout_below="@id/ed3"
+        android:hint="Employee Type"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed5"
+        android:layout_below="@id/ed4"
+        android:hint="Employee Age"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_below="@id/ed5"
+        android:layout_marginTop="50dp"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        />
+
+</RelativeLayout>
