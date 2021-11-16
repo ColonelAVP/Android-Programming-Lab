@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    android:background="@color/blue"
+    >
+
+    <TextView
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:text="Welcome"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Full Name -"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/tv2"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Address -"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/tv3"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Phone No. -"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/tv4"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Department -"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/tv5"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Email -"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:backgroundTint="@color/black"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="BACK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+</LinearLayout>
